@@ -1,5 +1,5 @@
 # WinrmTool
-This Tool is using python 2.7, if you want to change to python3 just switch between the raw_input to input.
+This Tool is using python 2.7, if you want to change to python3 just switch between the **raw_input** to **input**.
 
 ### Command Line Usage
 you can use this command line tool in order to connect to another computer using the winrm protocol.                                                                        
