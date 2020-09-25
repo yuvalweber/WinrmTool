@@ -1,6 +1,15 @@
 # WinrmTool
 This Tool is using python 2.7, if you want to change to python3 just switch between the **raw_input** to **input**.
 
+### Installation guide
+to install it just run the command:
+```bash
+  pip install -r requirements.txt
+```
+and then you can run the tool like that:
+```bash
+  python WinRMTool.py --host weberdc.weber.com --shell
+ ```
 ### Command Line Usage
 you can use this command line tool in order to connect to another computer using the winrm protocol.                                                                        
 you have couple of choices how to connect:                                                                                                                  
