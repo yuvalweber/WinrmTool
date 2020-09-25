@@ -1,5 +1,21 @@
 # WinrmTool
+This Tool is using python 2.7, if you want to change to python3 just switch between the raw_input to input.
 
 ### Command Line Usage
-
+you can use this command line tool in order to connect to another computer using the winrm protocol.                                                                        
+you have couple of choices how to connect:                                                                                                                  
+1) kerberos (neet to get tgt outside this shell with kinit, or by connecting with domain member on **linux** domain joined host.                                               
+2) ntlm (also support pass the hash using the nt hash).                                                                                                                        
+                                                                                                                                                                             
+and for running commands, you can use:                                                                                                                                        
+1) command (cmd command).                                                                                                                                                  
+2) Powershell-command.                                                                                                                                                           
+3) Powershell-script.                                                                                                                                                        
+4) Powershell-Shell.                                                                                                                                                            
+                                                                                                                                                                             
+you can see all the options and running example in the help menu when running:                                                                                                   
+```bash
+  python WinRMTool.py --help
+```
 ![alt text](./images/command_line.PNG)
+
