@@ -4,7 +4,7 @@ This Tool is using python 2.7, if you want to change to python3 just switch betw
 ### Command Line Usage
 you can use this command line tool in order to connect to another computer using the winrm protocol.                                                                        
 you have couple of choices how to connect:                                                                                                                  
-1) kerberos (neet to get tgt outside this shell with kinit, or by connecting with domain member on **linux** domain joined host.                                               
+1) kerberos (neet to get tgt outside this shell with kinit, or by connecting with domain user on **linux** domain joined host.                                               
 2) ntlm (also support pass the hash using the nt hash).                                                                                                                        
                                                                                                                                                                              
 and for running commands, you can use:                                                                                                                                        
