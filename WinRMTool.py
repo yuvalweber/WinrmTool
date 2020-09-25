@@ -72,7 +72,7 @@ def parse_xml_err(std_err):
     return new_std_err
 
 
-def Powershell_shell(p):
+def powershell_shell(p):
     shell_id = p.open_shell()
     
     while True:
@@ -173,7 +173,7 @@ if(args.command):
         print("\n{}".format(r['std_err'].decode()))
     
 elif(args.shell):
-    Powershell_shell(p)
+    powershell_shell(p)
 
 else:
     if(args.powershell_script):
