@@ -12,7 +12,8 @@ and for running commands, you can use:
 2) Powershell-command.                                                                                                                                                           
 3) Powershell-script.                                                                                                                                                        
 4) Powershell-Shell.                                                                                                                                                            
-                                                                                                                                                                             
+
+**This tool also support special shell commands for uploading and downloading file from and to the destination computer, see in the example section of the help menu**
 you can see all the options and running example in the help menu when running:                                                                                                   
 ```bash
   python WinRMTool.py --help
