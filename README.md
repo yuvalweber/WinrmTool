@@ -31,6 +31,6 @@ you can see all the options and running examples in the help menu when running:
 ![alt text](./images/command_line.PNG)
 
 ## Author Information
-<b>Yuval Weber, DevOps Engineer.</b><br>
-<b>mail: yuval199985@gmail.com</b>
+**Yuval Weber, DevOps Engineer.**  
+**mail: yuval199985@gmail.com**
 
