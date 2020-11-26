@@ -15,17 +15,17 @@ ENDC = '\033[0m'
 examples = '''examples:
                                                             NTLM
     ============================================================================================================================================
-    python winrm_ntlm.py --host 10.100.102.100 --username "weber\\ansible" --password "A123a123" --powershell_command "Get-ADComputer -Filter *"
-    python winrm_ntlm.py --host 10.100.102.100 --username "weber\\ansible" --hash "7bb16b7c77a30c947ac16a79f0b8a111" --command "ipconfig /all"
-    python winrm_ntlm.py --host 10.100.102.100 --username "weber\\ansible" --password "A123a123" --shell
+    python WinrmTool.py --host 10.100.102.100 --username "weber\\ansible" --password "A123a123" --powershell_command "Get-ADComputer -Filter *"
+    python WinrmTool.py --host 10.100.102.100 --username "weber\\ansible" --hash "7bb16b7c77a30c947ac16a79f0b8a111" --command "ipconfig /all"
+    python WinrmTool.py --host 10.100.102.100 --username "weber\\ansible" --password "A123a123" --shell
     ============================================================================================================================================
 
                                                             KERBEROS
     ============================================================================================================================================
                                                 Please notice that in kerberos you must use fqdn
 
-    python winrm_ntlm.py --host weberdc.weber.com --kerberos --command "ipconfig /all"
-    python winrm_ntlm.py --host weberdc.weber.com --kerberos --shell
+    python WinrmTool.py --host weberdc.weber.com --kerberos --command "ipconfig /all"
+    python WinrmTool.py --host weberdc.weber.com --kerberos --shell
     ============================================================================================================================================
 
                                                     Specical shell commands
